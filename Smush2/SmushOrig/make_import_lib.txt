@@ -1,0 +1,9 @@
+1. get functions names
+2. write def file
+3. generate import lib
+
+To get function names:
+dumpbin /exports SmushOrig.dll
+
+To generate import libs:
+lib /def:SmushOrig.def /machine:x86

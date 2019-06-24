@@ -1,0 +1,6 @@
+LIBRARY SmushOrig
+EXPORTS
+SmushOrigPlay           @1
+SmushOrigSetVolume      @2
+SmushOrigShutdown       @3
+SmushOrigStartup        @4
