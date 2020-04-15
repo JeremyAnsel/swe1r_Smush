@@ -132,6 +132,14 @@ namespace
 	//  Message handler for the main window.
 	LRESULT CALLBACK WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 	{
+		//if (GetForegroundWindow() != g_hwnd)
+		//{
+		//	SetForegroundWindow(g_hwnd);
+		//	SetFocus(g_hwnd);
+		//	ShowWindow(g_hwnd, SW_MAXIMIZE);
+		//	UpdateWindow(g_hwnd);
+		//}
+
 		switch (message)
 		{
 		case WM_CREATE:
